@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Entypo, MaterialIcons, FontAwesome } from '@expo/vector-icons';
 import HomeScreen from './screens/HomeScreen';
-import Leaderboard from './screens/Leaderboard';
+import LeaderboardScreen from './screens/LeaderboardScreen';
 import ChatScreen from './screens/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
@@ -33,7 +33,7 @@ export default function App() {
         />
         <Tab.Screen
           name='Leaderboard'
-          component={Leaderboard}
+          component={LeaderboardScreen}
           options={{
             tabBarLabel: 'Leaderboard',
             tabBarActiveTintColor: '#e91e63',

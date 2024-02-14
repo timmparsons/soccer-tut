@@ -1,7 +1,7 @@
 import { StyleSheet, Text, SafeAreaView } from 'react-native';
 import React from 'react';
 
-const Leaderboard = () => {
+const LeaderboardScreen = () => {
   return (
     <SafeAreaView>
       <Text>Leaderboard</Text>
@@ -9,6 +9,6 @@ const Leaderboard = () => {
   );
 };
 
-export default Leaderboard;
+export default LeaderboardScreen;
 
 const styles = StyleSheet.create({});
